@@ -1,0 +1,16 @@
+mvn archetype:generate -DgroupId=com -DartifactId=testMaven -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+
+
+
+mvn install:install-file -Dfile=D:\MyEclipse\ojdbc6.jar -DgroupId=oracle.jdbc.driver -DartifactId=ojdbc6 -Dversion=11.2.0.1.0 -Dpackaging=jar
+
+
+
+<dependency>				<groupId>oracle.jdbc.driver</groupId>
+	<artifactId>ojdbc6</artifactId>
+	<version>11.2.0.1.0</version>
+</dependency> 
+
+
+

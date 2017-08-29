@@ -1,0 +1,16 @@
+环境：Eclipse + tomcat7 + JDK 8 + maven
+1、把项目工程导到工程中，要记得参考下maven_install.txt文件，以对oracle数据库jar包的加载(前提是你已经配置好了maven)
+
+2、到工程里边的配置文件中的jdbc.properties修改为你自己的数据库连接
+
+3、到tomcat中的server.xml下配置：
+<Context crossContext="true" docBase="D://image" path="/image"/>
+
+
+4、还需要让项目工程发布到tomcat的webapps下（这个需要配置）
+
+5、参照数据库文件GJZB.sql，去插入数据表和数据
+
+6、以上只是简单说明，谢谢阅读
+
+补充说明：使用maven下载包时要注意网络问题，要网速好！！！
